@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **Artificial Intelligence**
 
-- 🌱 I’m currently learning **Power BI, crewAi and Streamlit**
+- 🌱 I’m currently learning **Power BI, crewai and Streamlit**
 
 - 👯 I’m looking to collaborate on **Projects**
 
