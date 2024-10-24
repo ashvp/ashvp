@@ -11,7 +11,7 @@
 
 - 👨‍💻 All of my projects are available at [https://github.com/ashvp?tab=repositories](https://github.com/ashvp?tab=repositories)
 
-- 💬 Ask me about **Streamlit, crewai**
+- 💬 Ask me about **Streamlit, crewAi**
 
 - 📫 How to reach me **ashwin.vp.2005@gmail.com**
 
