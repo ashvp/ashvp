@@ -1,319 +1,99 @@
-# Hey, I'm Ashwin 👋
+# Ashwin
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=24&duration=2600&pause=850&center=true&vCenter=true&width=900&lines=I+build+systems%2C+not+just+demos.;AI+%2B+Backend+%2B+Data.;From+idea+%E2%86%92+API+%E2%86%92+product.;Curiosity+is+part+of+the+stack." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2600&pause=1000&center=true&vCenter=true&width=800&lines=AI+%2B+Backend+%2B+Data.;From+idea+%E2%86%92+API+%E2%86%92+product." alt="Typing SVG" />
 </p>
 
-<p align="center">
-  <a href="https://github.com/ashvp">
-    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
+AI + backend systems. I started out training models, then kept having to build the API, the database, the auth, the deployment around them — and that's the part I ended up caring about most.
+
+Fourth-year B.Tech in AI & Data Science at Shiv Nadar University Chennai, also doing a BS in Programming and Data Science at IIT Madras. Research intern at the IIT Madras Computational Imaging Lab, working on lensless camera systems and physics-informed deep learning.
+
+Portfolio: [ashvp.com](https://ashvp.com)
 
 ---
 
-## `whoami`
+## Projects
 
-I'm an engineering student focused on **AI, backend systems, and data**.
+<details>
+<summary><b>🛡️ GitGuard</b> — an AI-powered Git CLI that assesses risk before you run something destructive</summary>
+<br>
 
-Most of my projects live somewhere around this intersection:
+Natural-language Git commands, AI-assisted commit messages, risk assessment before execution, checkpoints and rollback for when a command goes wrong. Published as a Python package — 2.9k downloads.
 
-```text
-                 ┌───────────────┐
-                 │   AI / ML     │
-                 └───────┬───────┘
-                         │
-                         ▼
-                ┌─────────────────┐
-                │ BACKEND SYSTEMS │
-                │ APIs · DB · Auth│
-                │ Services · Infra│
-                └───────┬─────────┘
-                        │
-                        ▼
-                 ┌──────────────┐
-                 │   PRODUCTS   │
-                 └──────────────┘
-```
+`Python` `Git` `CLI` `LLM APIs`
+</details>
 
-I started out building models.
+<details>
+<summary><b>📚 AI Question Paper Generator</b> — document-grounded question generation, not an LLM guessing</summary>
+<br>
 
-Then I had to build APIs around them.
+PDF → chunk → embed → retrieve → generate → validate. The retrieval step is the point: questions come from the source material instead of the model improvising.
 
-Then databases.
+`FastAPI` `LangChain` `FAISS` `Embeddings`
+</details>
 
-Then authentication.
+<details>
+<summary><b>👁️ Mobile Attendance System</b> — a face-recognition experiment that became a full platform</summary>
+<br>
 
-Then deployment.
+Auth, verification, groups, attendance workflows, admin panel — mobile client backed by a real API and persistent database state.
 
-Then suddenly the "ML project" had become a software system.
+`FastAPI` `PostgreSQL` `SQLAlchemy` `Computer Vision` `Docker`
+</details>
 
-**That's the part I enjoy.**
+<details>
+<summary><b>📄 AI Resume / Document Intelligence</b> — making structured documents machine-readable and editable</summary>
+<br>
 
----
+Combines document extraction, external data sources, and LLM reasoning into document-generation workflows that hold up to actual editing, not just one-shot output.
 
-# 🧠 What I build
+`LLMs` `Document Processing` `Structured Generation`
+</details>
 
-### Artificial Intelligence
+<details>
+<summary><b>🦠 Android Malware Analysis</b> — the other half of building software: understanding how it gets abused</summary>
+<br>
 
-LLM applications, RAG pipelines, embeddings, computer vision, model experimentation, document intelligence, and AI-powered developer tools.
+Static analysis of Android applications — Python tooling on top of Androguard, backend APIs for orchestration.
 
-I'm particularly interested in the layer **between a model and a useful product**.
+`Python` `Androguard` `FastAPI` `ADB`
+</details>
 
-```text
-data
- ↓
-representation
- ↓
-retrieval / reasoning
- ↓
-model
- ↓
-tools
- ↓
-application
-```
+<details>
+<summary><b>🤖 Personal AI</b> — treating a personal assistant like an actual system, not a chat window</summary>
+<br>
+
+Ongoing project on tools, memory, context and automation for an assistant that behaves like real software rather than a wrapper around an API call.
+
+`LLMs` `Agents` `Memory` `Automation`
+</details>
 
 ---
 
-### Backend Engineering
-
-Python is usually where I end up.
-
-```text
-client
-  ↓
-API
-  ↓
-authentication
-  ↓
-business logic
-  ↓
-database
-  ↓
-services
-  ↓
-deployment
-```
-
-I work primarily with **FastAPI, Django, SQLAlchemy and PostgreSQL**, alongside Docker and Linux.
-
----
-
-# 🚀 Selected Projects
-
-## 🤖 Personal AI
-
-A personal AI system exploring what happens when an assistant is treated as an **actual software system** rather than a chat window.
-
-Built around ideas like tools, context, memory, automation and agentic workflows.
-
-**Focus:** LLMs · agents · tools · memory · automation
-
----
-
-## 🛡️ GitGuard
-
-An AI-powered Git CLI designed to make Git operations safer and easier to understand.
-
-Instead of:
-
-```text
-git command
-    ↓
-hope
-    ↓
-pray (done it many times :/)
-```
-
-GitGuard aims for:
-
-```text
-intent
-  ↓
-understand
-  ↓
-assess risk
-  ↓
-execute
-  ↓
-recover when necessary
-```
-
-Features include natural-language Git operations, AI-assisted commits, risk assessment, checkpoints, rollback workflows and command explanations.
-
-**Stack:** Python · Git · CLI · LLM APIs
-
-> Published as a Python package. 2.9k downloads (soft brag)
-
----
-
-## 📚 AI Question Paper Generator
-
-A document-to-question-paper pipeline that combines retrieval with LLM generation.
-
-```text
-PDF
- ↓
-chunk
- ↓
-embed
- ↓
-retrieve
- ↓
-generate
- ↓
-validate
- ↓
-question paper
-```
-
-The objective isn't simply to ask an LLM to generate questions.
-
-It's to make generation **grounded in the source material**.
-
-**Stack:** FastAPI · LangChain · FAISS · Embeddings · LLMs
-
----
-
-## 👁️ Mobile Attendance System
-
-A full-stack attendance platform combining **computer vision, backend services and mobile clients**.
-
-What started as a face-recognition experiment evolved into a broader system involving authentication, verification, groups, attendance workflows and persistent backend state.
-
-```text
-Mobile
-  ↓
-Authentication
-  ↓
-Verification
-  ↓
-API
-  ↓
-Database
-  ↓
-Attendance / Groups / Admin
-```
-
-**Stack:** FastAPI · PostgreSQL · SQLAlchemy · Computer Vision · Mobile · Docker
-
----
-
-## 📄 AI Resume / Document Intelligence
-
-Exploring how resumes and other structured documents can become **machine-readable, editable and context-aware**.
-
-The idea is to combine document extraction, external data sources, structured information and LLM reasoning into practical document-generation workflows.
-
-**Focus:** LLMs · document processing · structured generation · APIs
-
----
-
-## 🦠 Android Malware Analysis
-
-A security-focused project for analysing Android applications using Python tooling, static analysis and backend APIs.
-
-A useful reminder that understanding software means understanding both:
-
-```text
-how systems are built
-        +
-how systems can be abused
-```
-
-**Stack:** Python · Androguard · FastAPI · ADB
-
----
-
-# ⚙️ Tech Stack
-
-### Languages
+## Stack
 
 <p>
 <img src="https://skillicons.dev/icons?i=python,cpp,java,javascript,typescript" />
 </p>
-
-### Backend & Databases
-
 <p>
 <img src="https://skillicons.dev/icons?i=fastapi,django,postgres,mysql,sqlite" />
 </p>
-
-### AI / ML
-
 <p>
 <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv,sklearn" />
 </p>
-
-### Infrastructure & Development
-
 <p>
 <img src="https://skillicons.dev/icons?i=docker,linux,git,github,react,flutter" />
 </p>
 
 ---
 
-# 🏗️ My engineering loop
+## Currently
 
-```text
-        ┌──────────┐
-        │   IDEA   │
-        └────┬─────┘
-             ↓
-        ┌──────────┐
-        │ PROTOTYPE│
-        └────┬─────┘
-             ↓
-        ┌──────────┐
-        │  SYSTEM  │
-        └────┬─────┘
-             ↓
-      ┌──────┴──────┐
-      ↓             ↓
-   DATABASE       AI / ML
-      │             │
-      └──────┬──────┘
-             ↓
-        ┌──────────┐
-        │ PRODUCT  │
-        └────┬─────┘
-             ↓
-        ┌──────────┐
-        │ ITERATE  │
-        └────┬─────┘
-             │
-             └──────────────↺
-```
-
-A model isn't a product.
-
-An API isn't an architecture.
-
-A container isn't a deployment strategy.
-
-And putting "AI-powered" in front of a CRUD app doesn't magically make it intelligent.
-
-I care about **the engineering around the intelligence**.
+Agentic AI, RAG systems, LLM application architecture, and figuring out how to make AI-powered projects boring enough to actually trust in production.
 
 ---
 
-# 🔬 Currently exploring
-
-```text
-→ Agentic AI
-→ LLM application architecture
-→ RAG & retrieval systems
-→ AI developer tooling
-→ Backend scalability
-→ Microservices
-→ Data-intensive applications
-→ Turning prototypes into real software
-```
-
----
-
-# 📊 GitHub
+## GitHub
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=ashvp&show_icons=true&hide_border=true&theme=transparent" height="170" />
@@ -321,33 +101,16 @@ I care about **the engineering around the intelligence**.
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=ashvp&hide_border=true&theme=transparent" />
+  <img src="https://raw.githubusercontent.com/ashvp/ashvp/output/github-contribution-grid-3d.svg" alt="3D contribution graph" />
 </p>
 
----
-
-# 🐍 Contribution trail
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/ashvp/ashvp/output/github-contribution-grid-snake.svg" alt="Animated contribution graph" />
-</p>
+<sub>3D graph generated via <a href="https://github.com/yoshi389111/github-profile-3d-contrib">github-profile-3d-contrib</a> — set up as a scheduled GitHub Action, so it updates itself. Setup notes below.</sub>
 
 ---
 
-# 💭 A few things I believe
+<details>
+<summary><sub>Setting up the 3D contribution graph (one-time)</sub></summary>
+<br>
 
-```text
-Good engineering makes complexity disappear.
-
-Good AI makes the system better.
-It doesn't exist to decorate it.
-
-The hardest part of an AI project
-is often everything surrounding the model.
-
-Prototype fast.
-Understand deeply.
-Then make it boring enough to trust.
-```
-
----
+Add a workflow file at `.github/workflows/profile-3d.yml` in your `ashvp/ashvp` repo using the `yoshi389111/github-profile-3d-contrib` action on a daily cron schedule, output to an `output` branch. It replaces the snake — same "auto-generated GitHub art" idea, but isometric instead of a grid crawl.
+</details>
