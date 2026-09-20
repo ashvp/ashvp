@@ -316,8 +316,8 @@ I care about **the engineering around the intelligence**.
 # 📊 GitHub
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ashvp&show_icons=true&hide_border=true&rank_icon=github&theme=transparent&include_all_commits=true" height="175" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ashvp&layout=compact&hide_border=true&theme=transparent&langs_count=8" height="175" />
+  <img src="https://github-readme-stats.vercel.app/api?username=ashvp&show_icons=true&hide_border=true&theme=transparent" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ashvp&layout=compact&hide_border=true&theme=transparent" height="170" />
 </p>
 
 <p align="center">
